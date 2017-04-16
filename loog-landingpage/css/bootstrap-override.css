@@ -1,0 +1,52 @@
+/*
+  Attention: This file is not an official part of twitter bootstrap, but it contains few overrides of media queries. 
+  The most important change (while keeping twitter bootstrap's responsive functionality) 
+  is that it restricts .container class of this template to be at most 960px wide.
+
+  Comment the forst section to allow sizes wider than 960px.
+
+*/
+
+@media (max-width: 979px) {
+
+  .navbar .nav > li.active > a {
+    background-image:none!important;
+  }
+  .nav-collapse {
+    display:block;
+  }
+  .navbar .nav {
+    margin:20px 0;
+  }
+  .navbar-inner {
+    padding:0 0 10px 0px!important;
+  }
+
+  .btn.btn-navbar {
+    margin-top:20px;
+    background:#222!important;
+  }
+  .navbar .nav-collapse .nav li a {
+    display:block;
+    color:#222;
+    font-weight:normal;
+    text-shadow:none;
+    padding:6px 10px;
+    border-bottom:1px solid #eee;
+    margin:0;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0;
+  }
+  .navbar .nav-collapse .nav li.active a, .navbar .nav-collapse .nav li:hover a {
+    background:#fff;
+  }
+  .navbar .nav-collapse .nav li.active a {
+    background:#F25F4B;
+    border-radius:2px;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    color:#fff;
+  }
+
+}

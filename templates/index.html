@@ -1,0 +1,139 @@
+<html>
+<head>
+	<title>Example.com - Loog</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link href="../static/css/main.css" rel="stylesheet" />
+</head>
+
+<body>
+	<!--Top navigation
+	<ul id="navbar">
+	  <li><a class="active" href="/">Loog</a></li>
+	  
+		
+	   <li class="dropdown">
+            <div class="dropdown">
+				<a>Mouse over me</a>
+				<div class="dropdown-content">
+					<p>Hello World!</p>
+				</div>
+			</div>
+        </li>
+		<li>
+			<div class="dropdown">
+				<a href="feedbacks.html">Feedbacks</a> 
+			</div>
+		</li>
+		<li class="right"><a href="settings/settings.html"><i class="material-icons">settings</i></a></li>	  
+	  <li class="right"><a href="settings/user-settings.html"><i class="material-icons">face</i><i class="material-icons">arrow_drop_down</i></a></li>
+	</ul>
+	End top navigation -->
+
+	<!--<h1>Simple Pure CSS Drop Down Menu</h1>-->
+	<nav id="primary_nav_wrap">
+	<ul>
+	<li class="current-menu-item"><a href="#">Home</a></li>
+	<li><a href="#">Menu 1</a>
+		<ul>
+		<li><a href="#">Sub Menu 1</a></li>
+		<li><a href="#">Sub Menu 2</a></li>
+		<li><a href="#">Sub Menu 3</a></li>
+		<li><a href="#">Sub Menu 4</a>
+			<ul>
+			<li><a href="#">Deep Menu 1</a>
+				<ul>
+				<li><a href="#">Sub Deep 1</a></li>
+				<li><a href="#">Sub Deep 2</a></li>
+				<li><a href="#">Sub Deep 3</a></li>
+					<li><a href="#">Sub Deep 4</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Deep Menu 2</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Sub Menu 5</a></li>
+		</ul>
+	</li>
+	<li><a href="#">Menu 2</a>
+		<ul>
+		<li><a href="#">Sub Menu 1</a></li>
+		<li><a href="#">Sub Menu 2</a></li>
+		<li><a href="#">Sub Menu 3</a></li>
+		</ul>
+	</li>
+	<li><a href="#">Menu 3</a>
+		<ul>
+		<li class="dir"><a href="#">Sub Menu 1</a></li>
+		<li class="dir"><a href="#">Sub Menu 2 THIS IS SO LONG IT MIGHT CAUSE AN ISSEUE BUT MAYBE NOT?</a>
+			<ul>
+			<li><a href="#">Category 1</a></li>
+			<li><a href="#">Category 2</a></li>
+			<li><a href="#">Category 3</a></li>
+			<li><a href="#">Category 4</a></li>
+			<li><a href="#">Category 5</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Sub Menu 3</a></li>
+		<li><a href="#">Sub Menu 4</a></li>
+		<li><a href="#">Sub Menu 5</a></li>
+		</ul>
+	</li>
+	<li><a href="#">Menu 4</a></li>
+	<li><a href="#">Menu 5</a></li>
+	<li><a href="#">Menu 6</a></li>
+	<li><a href="#">Contact Us</a></li>
+	</ul>
+	</nav>
+
+
+	
+	<div class="grid">
+		<div id="real-time-feed" class="unit four-fifths">
+			{{ range .Feed}}
+			<div class="rt-req" style="border-left: 4px solid #{{.Color}}"> <!-- Color randomly generated based on IP -->
+				<!-- <span class="dark-green">https://www.otherexample.com/about-this-new-site</span> &raquo; --> <span class="blue">{{ .URL }}</span> <span class="fade">- Page {{ .ViewNumber }}</span>
+				<br />
+				<span>{{ .IP }}</span> <span class="red">{{ .Country }}</span> <b>{{ .Browser }}</b> on <b>{{ .OS }}</b> <code>{{ .Width }}x{{ .Height }}</code>
+				<!--<br />
+				{{.UA}}
+				<!--Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/601.4.4 (KHTML, like Gecko) Version/9.0.3 Safari/601.4.4 -->
+				<br />
+				{{.Time}} - <em>{{.Color}} secconds ago</em>
+			</div>
+			{{end}}
+		</div>
+		<div class="unit one-fifth">
+			<h3>Today</h3>
+			Pageviews: {{ .Views }}<br />
+			Visits: {{ .Visits }}
+			<br />
+			<a class="button" href="#">History &raquo;</a>
+			<br />
+			<h3>Top Pages</h3>
+			<a href="https://www.example.com/example">www.example.com/example</a> 8
+			<a href="https://www.example.com/example">www.example.com/page</a> 6
+			<a href="https://www.example.com/example">www.example.com/about-us</a> 6
+			<a href="https://www.example.com/example">www.example.com/the-company</a> 6
+			<a href="https://www.example.com/example">www.example.com/why-we-love-pasta</a> 3
+
+			<br /><br />
+			<a href="test.html">Bunch</a> <a href="test.html">of</a> <a href="test.html">useful</a> <a href="test.html">help</a> <a href="test.html">links</a>.
+		</div>	
+	</div>
+	
+</body>
+<!-- Please don't force me to use jquery, senpai <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>-->
+<script src="/static/js/full.js"></script>
+<script type="text/javascript">
+	var loog_site = "w7xAW";
+	var loog = document.createElement("script");
+	loog.type = "text/javascript";
+	loog.async = true;
+	loog.src = "../static/js/loog.js";
+	(
+		document.getElementsByTagName("head")[0] || document.getElementsByTagName('body')[0]
+	).appendChild(loog);
+</script>
+
+  
+</html>

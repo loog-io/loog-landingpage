@@ -1,0 +1,274 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>CleanSite - A simple and clean responsive bootstrap theme</title>
+	
+	<meta name="description" content="Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form here. Thanks so much!">
+	<meta name="author" content="Michal Simonfy">
+	<meta name="copyright" content="Michal Simonfy">
+	<meta name="generator" content="Documenter v1.6 http://rxa.li/documenter">
+	<meta name="date" content="2012-07-03T00:00:00+02:00">
+	
+	<link rel="stylesheet" href="css/documenter_style.css" media="all">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+	<script src="js/jquery.1.6.4.js"></script>
+	
+	<script src="js/jquery.scrollTo-1.4.2-min.js"></script>
+	<script src="js/jquery.easing.js"></script>
+	
+	
+	<script>document.createElement('section');var duration=500,easing='swing';</script>
+	<script src="js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url(assets/images/image_1.png);}
+		a{color:#0000FF;}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ol a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ol a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ol{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ol a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ol a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ol a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body>
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ol id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+			<li><a href="#html_structure">HTML Structure</a></li>
+			<li><a href="#css_files_and_structure">CSS Files and Structure</a></li>
+			<li><a href="#javascript">JavaScript</a></li>
+			<li><a href="#psd_files">PSD Files</a></li>
+			<li><a href="#sources_and_credits">Sources and Credits</a></li>
+
+		</ol>
+		<div id="documenter_copyright">Copyright Michal Simonfy 2012<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v1.6</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover"><h1>CleanSite</h1><h2>A simple and clean responsive bootstrap theme</h2><hr><ul><li>Created: 03/10/2011</li><li>latest Update: 05/09/2015</li><li>By: Michal Simonfy</li><li><a href=""></a></li><li>Email: <a href="mailto:&#109;&#105;&#99;&#104;&#97;&#108;&#46;&#115;&#105;&#109;&#111;&#110;&#102;&#121;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#109;&#105;&#99;&#104;&#97;&#108;&#46;&#115;&#105;&#109;&#111;&#110;&#102;&#121;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></li></ul><p>Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form here. Thanks so much!</p></section><section id="html_structure">
+	<h3>HTML Structure</h3><hr class="notop">
+<p>
+	This is a responsible theme layout with various number of columns (anything between 1-12), which allows to create custom combination of columns by using specific class selectors. The theme is based on popular Twitter Bootstrap interface, which comes with support for responsive design, HTML5, CSS3 and many other user interface components. Since twitter bootstrap is very well integrated into this theme, you can use any of it&#39;s components with ease. More information about using twitter bootstrap can be found on&nbsp;<a href="http://twitter.github.com/bootstrap/">http://twitter.github.com/bootstrap/</a>.&nbsp;</p>
+<p>
+	<span style="text-align: center; ">All of the information within the main content area is nested within a div with a class of &nbsp;&quot;row&quot;.&nbsp;</span></p>
+<p>
+	Within &quot;row,&quot; 12 columns can be easily divided into any number of sections.&nbsp;</p>
+<p>
+	To create 2 sections with the same width, the code would be written as follows:</p>
+<ol class="linenums" style="padding: 0px; margin: 0px 0px 0px 33px; list-style-position: initial; list-style-image: initial; color: rgb(51, 51, 51); font-family: Menlo, Monaco, Consolas, 'Courier New', monospace; line-height: 17px; white-space: pre-wrap; ">
+	<li class="L0" style="line-height: 18px; padding-left: 12px; color: rgb(190, 190, 197); text-shadow: rgb(255, 255, 255) 0px 1px 0px; ">
+		<span class="tag" style="color: rgb(30, 52, 123); ">&lt;div</span><span class="pln" style="color: rgb(72, 72, 76); "> </span><span class="atn" style="color: teal; ">class</span><span class="pun" style="color: rgb(147, 161, 161); ">=</span><span class="atv" style="color: rgb(221, 17, 68); ">&quot;row&quot;</span><span class="tag" style="color: rgb(30, 52, 123); ">&gt;</span></li>
+	<li class="L1" style="line-height: 18px; padding-left: 12px; color: rgb(190, 190, 197); text-shadow: rgb(255, 255, 255) 0px 1px 0px; ">
+		<span class="tag" style="color: rgb(30, 52, 123); ">&lt;div</span><span class="pln" style="color: rgb(72, 72, 76); "> </span><span class="atn" style="color: teal; ">class</span><span class="pun" style="color: rgb(147, 161, 161); ">=</span><span class="atv" style="color: rgb(221, 17, 68); ">&quot;col-md-6&quot;</span><span class="tag" style="color: rgb(30, 52, 123); ">&gt;</span><span class="pln" style="color: rgb(72, 72, 76); ">...</span><span class="tag" style="color: rgb(30, 52, 123); ">&lt;/div&gt;</span></li>
+	<li class="L2" style="line-height: 18px; padding-left: 12px; color: rgb(190, 190, 197); text-shadow: rgb(255, 255, 255) 0px 1px 0px; ">
+		<span class="tag" style="color: rgb(30, 52, 123); ">&lt;div</span><span class="pln" style="color: rgb(72, 72, 76); "> </span><span class="atn" style="color: teal; ">class</span><span class="pun" style="color: rgb(147, 161, 161); ">=</span><span class="atv" style="color: rgb(221, 17, 68); ">&quot;col-md-6&quot;</span><span class="tag" style="color: rgb(30, 52, 123); ">&gt;</span><span class="pln" style="color: rgb(72, 72, 76); ">...</span><span class="tag" style="color: rgb(30, 52, 123); ">&lt;/div&gt;</span></li>
+	<li class="L3" style="line-height: 18px; padding-left: 12px; color: rgb(190, 190, 197); text-shadow: rgb(255, 255, 255) 0px 1px 0px; ">
+		<span class="tag" style="color: rgb(30, 52, 123); ">&lt;/div&gt;</span></li>
+</ol>
+<p>
+	Since 6+6 = 12, these columns sum up to the full row. Alternatively, when creating 3 sections with the same width, the code needs to be changed like this:</p>
+<ol class="linenums" style="padding: 0px; margin: 0px 0px 0px 33px; list-style-position: initial; list-style-image: initial; color: rgb(51, 51, 51); font-family: Menlo, Monaco, Consolas, 'Courier New', monospace; line-height: 17px; white-space: pre-wrap; ">
+	<li class="L0" style="line-height: 18px; padding-left: 12px; color: rgb(190, 190, 197); text-shadow: rgb(255, 255, 255) 0px 1px 0px; ">
+		<span class="tag" style="color: rgb(30, 52, 123); ">&lt;div</span><span class="pln" style="color: rgb(72, 72, 76); "> </span><span class="atn" style="color: teal; ">class</span><span class="pun" style="color: rgb(147, 161, 161); ">=</span><span class="atv" style="color: rgb(221, 17, 68); ">&quot;row&quot;</span><span class="tag" style="color: rgb(30, 52, 123); ">&gt;</span></li>
+	<li class="L1" style="line-height: 18px; padding-left: 12px; color: rgb(190, 190, 197); text-shadow: rgb(255, 255, 255) 0px 1px 0px; ">
+		<span class="tag" style="color: rgb(30, 52, 123); ">&lt;div</span><span class="pln" style="color: rgb(72, 72, 76); "> </span><span class="atn" style="color: teal; ">class</span><span class="pun" style="color: rgb(147, 161, 161); ">=</span><span class="atv" style="color: rgb(221, 17, 68); ">&quot;col-md-4&quot;</span><span class="tag" style="color: rgb(30, 52, 123); ">&gt;</span><span class="pln" style="color: rgb(72, 72, 76); ">...</span><span class="tag" style="color: rgb(30, 52, 123); ">&lt;/div&gt;</span></li>
+	<li class="L1" style="line-height: 18px; padding-left: 12px; color: rgb(190, 190, 197); text-shadow: rgb(255, 255, 255) 0px 1px 0px; ">
+		<span class="tag" style="color: rgb(30, 52, 123); ">&lt;div</span><span class="pln" style="color: rgb(72, 72, 76); "> </span><span class="atn" style="color: teal; ">class</span><span class="pun" style="color: rgb(147, 161, 161); ">=</span><span class="atv" style="color: rgb(221, 17, 68); ">&quot;col-md-4&quot;</span><span class="tag" style="color: rgb(30, 52, 123); ">&gt;</span><span class="pln" style="color: rgb(72, 72, 76); ">...</span><span class="tag" style="color: rgb(30, 52, 123); ">&lt;/div&gt;</span></li>
+	<li class="L2" style="line-height: 18px; padding-left: 12px; color: rgb(190, 190, 197); text-shadow: rgb(255, 255, 255) 0px 1px 0px; ">
+		<span class="tag" style="color: rgb(30, 52, 123); ">&lt;div</span><span class="pln" style="color: rgb(72, 72, 76); "> </span><span class="atn" style="color: teal; ">class</span><span class="pun" style="color: rgb(147, 161, 161); ">=</span><span class="atv" style="color: rgb(221, 17, 68); ">&quot;col-md-4&quot;</span><span class="tag" style="color: rgb(30, 52, 123); ">&gt;</span><span class="pln" style="color: rgb(72, 72, 76); ">...</span><span class="tag" style="color: rgb(30, 52, 123); ">&lt;/div&gt;</span></li>
+	<li class="L3" style="line-height: 18px; padding-left: 12px; color: rgb(190, 190, 197); text-shadow: rgb(255, 255, 255) 0px 1px 0px; ">
+		<span class="tag" style="color: rgb(30, 52, 123); ">&lt;/div&gt;</span></li>
+</ol>
+<p>
+	Using four div elements with the class of &quot;span3&quot; will respectively result in four columns with the same width.&nbsp;<br>
+	Creating columns with different width is as easy as splitting the number 12 into desired sections.&nbsp;<br>
+	<br>
+	1/3 layout can be achieved by following code</p>
+<ol class="linenums" style="padding: 0px; margin: 0px 0px 0px 33px; list-style-position: initial; list-style-image: initial; font-family: Menlo, Monaco, Consolas, 'Courier New', monospace; line-height: 17px; white-space: pre-wrap; ">
+	<li class="L0" style="line-height: 18px; padding-left: 12px; color: rgb(190, 190, 197); text-shadow: rgb(255, 255, 255) 0px 1px 0px; ">
+		<span class="tag" style="color: rgb(30, 52, 123); ">&lt;div</span><span class="pln" style="color: rgb(72, 72, 76); "> </span><span class="atn" style="color: teal; ">class</span><span class="pun" style="color: rgb(147, 161, 161); ">=</span><span class="atv" style="color: rgb(221, 17, 68); ">&quot;row&quot;</span><span class="tag" style="color: rgb(30, 52, 123); ">&gt;</span></li>
+	<li class="L1" style="line-height: 18px; padding-left: 12px; color: rgb(190, 190, 197); text-shadow: rgb(255, 255, 255) 0px 1px 0px; ">
+		<span class="tag" style="color: rgb(30, 52, 123); ">&lt;div</span><span class="pln" style="color: rgb(72, 72, 76); "> </span><span class="atn" style="color: teal; ">class</span><span class="pun" style="color: rgb(147, 161, 161); ">=</span><span class="atv" style="color: rgb(221, 17, 68); ">&quot;col-md-4&quot;</span><span class="tag" style="color: rgb(30, 52, 123); ">&gt;</span><span class="pln" style="color: rgb(72, 72, 76); ">...</span><span class="tag" style="color: rgb(30, 52, 123); ">&lt;/div&gt;</span></li>
+	<li class="L1" style="line-height: 18px; padding-left: 12px; color: rgb(190, 190, 197); text-shadow: rgb(255, 255, 255) 0px 1px 0px; ">
+		<span class="tag" style="color: rgb(30, 52, 123); ">&lt;div</span><span class="pln" style="color: rgb(72, 72, 76); "> </span><span class="atn" style="color: teal; ">class</span><span class="pun" style="color: rgb(147, 161, 161); ">=</span><span class="atv" style="color: rgb(221, 17, 68); ">&quot;col-md-8&quot;</span><span class="tag" style="color: rgb(30, 52, 123); ">&gt;</span><span class="pln" style="color: rgb(72, 72, 76); ">...</span><span class="tag" style="color: rgb(30, 52, 123); ">&lt;/div&gt;</span></li>
+	<li class="L1" style="line-height: 18px; padding-left: 12px; color: rgb(190, 190, 197); text-shadow: rgb(255, 255, 255) 0px 1px 0px; ">
+		<span style="color: rgb(30, 52, 123); ">&lt;/div&gt;</span></li>
+</ol>
+<p>
+	&nbsp;</p>
+<div>
+	<div>
+		&nbsp;</div>
+	<div>
+		Basic structure of this theme looks like this. Please feel free to find these sections in theme&#39;s source code to understand it&#39;s structure better.&nbsp;</div>
+	<div>
+		&nbsp;</div>
+	<div>
+		&lt;!-- HEAD section</div>
+	<div>
+		================================================== --&gt;</div>
+	<div>
+		&lt;!-- Navigation</div>
+</div>
+<div>
+	================================================== --&gt;</div>
+<div>
+	<div>
+		&lt;!-- Content</div>
+	<div>
+		================================================== --&gt;</div>
+	<div>
+		<div>
+			&lt;!-- Footer</div>
+		<div>
+			================================================== --&gt;</div>
+		<div>
+			<div>
+				&lt;!-- Javascript - Placed at the end of the document so the pages load faster&nbsp;</div>
+			<div>
+				================================================== --&gt;</div>
+			<div>
+				&nbsp;</div>
+		</div>
+	</div>
+</div>
+</section>
+<section id="css_files_and_structure">
+	<h3>CSS Files and Structure</h3><hr class="notop">
+<p>
+	This theme comes with 5 CSS files:</p>
+<p>
+	<strong>1.&nbsp;bootstrap.min.css</strong><br>
+	<strong>2.&nbsp;bootstrap-responsive.min.css</strong><br>
+	These are base twitter bootstrap CSS files, which defines various elements like &nbsp;columns,&nbsp;navigation, tabs, icons, forms and buttons. These files also take care of responsiveness of this theme, so it can be easily viewed on mobile devices or tablets.&nbsp;</p>
+<p>
+	<strong>3.&nbsp;bootstrap-override.min.css</strong><br>
+	This file is not an official part of twitter bootstrap theme, it contains few overrides of media queries of original theme, which were required for this theme to work correctly. The most important chage it, that while keeping twitter bootstrap&#39;s responsive functionality, it restricts content section of our website to be at most 1024px width.</p>
+<p>
+	<strong>3.&nbsp;font-awesome.css (comes with font-files)</strong><br>
+	This file includes a custom font which is being used for all icons which you can see in this theme. More information about Font Awesome 100% scalable icon pack can be found at&nbsp;<a href="http://fortawesome.github.com/Font-Awesome/">http://fortawesome.github.com/Font-Awesome/</a>.&nbsp;</p>
+<p>
+	<strong>4. style.css</strong><br>
+	This is the most important style for our theme, and to make any changes to this template, you should only need to modify this file. The file is divided info dirrefent sections, while every section take name from a subpage respectively.&nbsp;</p>
+<p>
+	&nbsp;</p>
+<div>
+	/*<span class="Apple-tab-span" style="white-space:pre"> </span>Base */ -&nbsp;some basic styling of our theme.&nbsp;</div>
+<div>
+	/*<span class="Apple-tab-span" style="white-space: pre; "> </span>Classes<span class="Apple-tab-span" style="white-space: pre; "> </span>*/ -&nbsp;few classes which are being used accross all theme&#39;s files.&nbsp;</div>
+<div>
+	/*<span class="Apple-tab-span" style="white-space: pre; "> </span>Footer */</div>
+<div>
+	/*<span class="Apple-tab-span" style="white-space:pre"> </span>Tabs */</div>
+<div>
+	/*<span class="Apple-tab-span" style="white-space:pre"> </span>Navigation */</div>
+<div>
+	/*<span class="Apple-tab-span" style="white-space:pre"> </span>Carousel */</div>
+<div>
+	/*<span class="Apple-tab-span" style="white-space:pre"> </span>Hero unit (page headings) */</div>
+<div>
+	/*<span class="Apple-tab-span" style="white-space: pre; "> </span>Pricing */</div>
+<div>
+	/*<span class="Apple-tab-span" style="white-space:pre"> </span>Portfolio */</div>
+<div>
+	/*<span class="Apple-tab-span" style="white-space: pre; "> </span>Our team */</div>
+<div>
+	/*<span class="Apple-tab-span" style="white-space:pre"> </span>Explore features */<br>
+	/*<span class="Apple-tab-span" style="white-space: pre; "> </span>Special elements */ (e.g. - ribbon as can be seen on pricing tables)<br>
+	/*<span class="Apple-tab-span" style="white-space: pre; "> </span>Thumbnails */</div>
+<p>
+	If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p>
+</section>
+<section id="javascript">
+	<h3>JavaScript</h3><hr class="notop">
+<p>
+	This theme imports three Javascript files.</p>
+<ol>
+	<li>
+		jquery-1.11.3.min<br>
+		jQuery is a Javascript library that greatly reduces the amount of code that you must write.</li>
+	<li>
+		bootstrap.min<br>
+		Twitter bootstrap base JavaScript file, which allows us to use many javascript components like tabs, accordion menus, dropdowns, tooltips and popovers, alert messages and so on. ore can be found at&nbsp;<a href="http://twitter.github.com/bootstrap/javascript.html">http://twitter.github.com/bootstrap/javascript.html</a></li>
+	<li>
+		jquery.isotope.min.js<br>
+		Which is being used to filter our portfolio items</li>
+	<li>
+		jquery.hotkeys<br>
+		For keyboard shortcuts functionality (e.g. navigating to previous/next project by pressing Left/Right arrow)</li>
+	<li>
+		<p>
+			<strong>functions.js<br>
+			The most important file for our theme, which defines some basic javascript functions.&nbsp;</strong><br>
+			<br>
+			This file is divided into few different sections, while every section cares about different functionality.&nbsp;<br>
+			<br>
+			<strong>Twitter bootstrap</strong> - carousel, tooltip, popover&nbsp;<br>
+			Initialization of some twitter bootstrap javascript plugins<br>
+			<br>
+			<strong>Thumbnails</strong><br>
+			Zoom and link functionality of out thumbnails (+ and link icons which appear after you move your mouse over thumbnail - e.g. portfolio item)<br>
+			<br>
+			<strong>Responsible navigation</strong><br>
+			Creates a collapsible top navigation for mobile devices<br>
+			<br>
+			<strong>Portfolio&nbsp;</strong><br>
+			Basic functionality for filtering portfolio items.&nbsp;<br>
+			<br>
+			<strong>Keyboard shortcuts</strong><br>
+			Initialization of keyboard shortcuts. You can easily define your own shortcuts by using this code:<br>
+			<br>
+			<span style="color: rgb(30, 52, 123); line-height: 18px; ">&lt;a rel=&quot;shortcut&quot; data-key=&quot;k&quot; href=&quot;http://google.com&quot;&gt;Press &quot;k&quot; to visit google.com&lt;/a&gt;<br>
+			<br>
+			This code will result in navigation your visitor to google.com after pressing &quot;k&quot; key.&nbsp;</span></p>
+	</li>
+</ol>
+</section>
+<section id="psd_files">
+	<h3>PSD Files</h3><hr class="notop">
+</section>
+<section id="sources_and_credits">
+	<h3>Sources and Credits</h3><hr class="notop">
+<p>
+	I&#39;ve used the following images, icons or other files as listed.</p>
+<ul>
+	<li>
+		all files (a-z.jpg) placed in assets folder comes from profile of Creattica at&nbsp;<a href="http://creattica.com/creatives/creattica/16534?page=34">http://creattica.com/creatives/creattica/16534</a></li>
+	<li>
+		Included libraries
+		<br>
+		<strong>jQuery -&nbsp;</strong> http://jquery.com<br>
+		<strong>twitter bootstrap</strong>&nbsp;-&nbsp;http://twitter.github.com/bootstrap<br>
+		<strong>Font Awesome</strong> &nbsp;-&nbsp;http://fortawesome.github.com/Font-Awesome/<br>
+		<strong>jQuery hotkeys</strong> -&nbsp;<a href="http://code.google.com/p/js-hotkeys/">http://code.google.com/p/js-hotkeys/</a><br>
+		<strong>jQUery isotope</strong> -&nbsp;<a href="http://isotope.metafizzy.co/">http://isotope.metafizzy.co/</a></li>
+</ul>
+<p>
+	&nbsp;</p>
+<p>
+	Once again, thank you so much for purchasing this theme. As I said at the beginning, I&#39;d be glad to help you if you have any questions relating to this theme. No guarantees, but I&#39;ll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the &quot;Item Discussion&quot; section.</p>
+<p>
+	<strong>Sincerely,&nbsp;</strong><br>
+	Michal &Scaron;imonfy</p>
+</section>
+
+	</div>
+</body>
+</html>
